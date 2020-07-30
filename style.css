@@ -11,14 +11,70 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 400;
 }
 
 .article-container {
   width: auto;
-  max-width: 1100px;
+  max-width: 800px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: row;
+}
+
+.drawer {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.heading-text {
+  font-weight: 700;
+  text-align: left;
+  color: hsl(217, 19%, 35%);
+}
+
+.body-text {
+  text-align: left;
+  color: hsl(214, 17%, 51%);
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.author-left-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.author-name {
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+.date {
+  color: hsl(214, 17%, 51%);
+}
+
+.michelle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.circle {
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+.share {
+  justify-content: center;
 }
