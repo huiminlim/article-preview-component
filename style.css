@@ -27,11 +27,11 @@ body {
 .img-container {
   width: 100%;
   overflow: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .drawer {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
   width: 380px;
   height: 100%;
 }
@@ -131,7 +131,7 @@ body {
     width: 90%;
   }
 
-  .drawer {
+  .img-container {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0;
