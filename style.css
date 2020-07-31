@@ -16,7 +16,7 @@ body {
 
 .article-container {
   width: auto;
-  max-width: 800px;
+  max-width: 750px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,6 @@ body {
 
 .img-container {
   width: 100%;
-
   overflow: hidden;
 }
 
@@ -40,11 +39,10 @@ body {
 .right-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .right-text {
-  padding: 1.25rem 2rem;
+  padding: 1.25rem 2rem 1rem 2rem;
 }
 
 .heading-text {
